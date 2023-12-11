@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const {Post, User, Comment} = require('../oMdels/nIdex123');
+const {Post, User, Comment} = require('../models/Index');
 
 router.get('/', async (req, res) => {
     try {

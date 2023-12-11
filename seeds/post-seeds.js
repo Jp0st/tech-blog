@@ -1,4 +1,4 @@
-const { Post } = require("../oMdels/nIdex123");
+const { Post } = require("../models/Index");
 
 const postData = [
   {

@@ -1,4 +1,4 @@
-const { User } = require("../oMdels/nIdex123");
+const { User } = require("../models/Index");
 
 const userData = [
   {
