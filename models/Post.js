@@ -18,7 +18,7 @@ Post.init(
       allowNull: false,
     },
     content: {
-      type: DataTypes.TEXT, // Adjust the data type based on your requirements
+      type: DataTypes.STRING,
       allowNull: false,
     },
     user_id: {
