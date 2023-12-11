@@ -1,0 +1,55 @@
+.fa-pen-to-square {
+    color: whitesmoke;
+    font-size: 1.5rem;
+  }
+  
+  .footer-icons {
+    font-size: 1.2rem;
+    justify-content: center;
+    gap: 20vw; /* Adjusted the gap value for better readability */
+  }
+  
+  .comments {
+    gap: 10vw; /* Adjusted the gap value for better readability */
+    min-height: 20px;
+  }
+  
+  :root {
+    --primary-color: #541313; /* Blue-gray as the primary color */
+    --secondary-color: #601818; /* A darker shade of blue-gray for accents */
+    --background-color: #b0b0b0; /* Light gray background */
+    --text-color: #191919; /* Dark text color on light background */
+  }
+  
+  header {
+    background-color: var(--primary-color);
+    color: #fff; /* White text color for header */
+  }
+  
+  a {
+    color: var(--primary-color); /* Blue-gray links */
+  }
+  
+  a:hover {
+    color: var(--secondary-color); /* Darker blue-gray on hover */
+  }
+  
+  .btn:hover {
+    background-color: var(--primary-color);
+  }
+  
+  .blog-bg {
+    background-color: var(--secondary-color);
+  }
+  
+  .card {
+    margin-bottom: 1rem;
+  }
+  
+  .card-title {
+    padding: 1rem;
+  }
+  
+  textarea {
+    margin-bottom: 1rem;
+  }
